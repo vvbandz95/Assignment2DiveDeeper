@@ -1,0 +1,15 @@
+#3.1 Write a program that prompts the user to input a year. Program should determine if given year is leap or not and display true or false message. **Every year exactly divisble by 4 is a leap, except those exactly divisble by 100, but centurial years are leap if exaclt divisble by 400. 
+# should get False for 1900. True for 2000. True for 2024. 
+
+leap_year = int(input("Enter the year: "))
+
+if (leap_year / 100 != 0):
+    print("False")
+if (leap_year / 4 == 0):
+    print("True")
+elif (leap_year / 400 == 0):
+    print("True")
+else:
+    print("False")
+
+#idk wwjat im doing wrong here. Please help. 
